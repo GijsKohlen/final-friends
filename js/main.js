@@ -4,9 +4,9 @@ $(".cta").click(function(event) { // als op knop is geklikt laad dan wat er in h
 });
 
 $(document).ready(function() { //in de fist load, laat in de thumbs de content van mycontent
-    $("#tumz-1 .replace").load("../../mycontent1.html .tumz-wrapper");
-    $("#tumz-2 .replace").load("../../mycontent2.html .tumz-wrapper");
-    $("#tumz-3 .replace").load("../../mycontent3.html .tumz-wrapper");
+    $("#tumz-1 .replace").load("../../mycontent1.html");
+    $("#tumz-2 .replace").load("../../mycontent2.html");
+    $("#tumz-3 .replace").load("../../mycontent3.html");
 });
 
 $('.modal').on('click', '#close', function(event) { // sluit model wanneer er geklikt wordt
