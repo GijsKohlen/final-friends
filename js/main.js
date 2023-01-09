@@ -33,7 +33,7 @@ $('#tumz-1 .cta').click(function() {
         $("#tumz-1 .p-tag-back").removeClass('visible'); // als er geklikt is verandert de tekst van more naar back
         $("#tumz-1 .p-tag-more").removeClass('hidden');
         $('.modalpop-up').remove(); // als de popup gesloten wordt dan wordt de content hiervan verwijderd uit de homepage
-        $("#tumz-1 .replace").load("../mycontent1.html .tumz-wrapper"); //als popup gesloten is, laad mycontent1 in tumz-1
+        $("#tumz-1 .replace").load("/mycontent1.html .tumz-wrapper"); //als popup gesloten is, laad mycontent1 in tumz-1
 
 
     } else {
@@ -51,7 +51,7 @@ $('#tumz-1 .cta').click(function() {
         $("#tumz-1 .p-tag-back").addClass('visible'); // als er geklikt is verandert de tekst van more naar back
         $("#tumz-1 .p-tag-more").addClass('hidden');
         $("#tumz-content1").remove(); //als popup open is verwijder dan de content van mycontent1
-        $("#tumz-1 .replace").load("../pop1.html .modalpop-up"); // als de popup open is wordt de content van mycontent1 verwijderd 
+        $("#tumz-1 .replace").load("/pop1.html .modalpop-up"); // als de popup open is wordt de content van mycontent1 verwijderd 
     };
 });
 
@@ -76,7 +76,7 @@ $('#tumz-2 .cta').click(function() {
         $("#tumz-2 .p-tag-back").removeClass('visible'); // als er geklikt is verandert de tekst van more naar back
         $("#tumz-2 .p-tag-more").removeClass('hidden');
         $('.modalpop-up').remove(); //als popup gesloten verwijder content van popup
-        $("#tumz-2 .replace").load("../mycontent2.html .tumz-wrapper"); // geloten is originele homepage terug
+        $("#tumz-2 .replace").load("/mycontent2.html .tumz-wrapper"); // geloten is originele homepage terug
 
 
     } else {
@@ -100,7 +100,7 @@ $('#tumz-2 .cta').click(function() {
 
         $("#tumz-2 .p-tag-back").addClass('visible'); //wanneer geklikt tekst veradert van more naar back
         $("#tumz-2 .p-tag-more").addClass('hidden');
-        $("#tumz-2 .replace").load("../pop2.html .modalpop-up");
+        $("#tumz-2 .replace").load("/pop2.html .modalpop-up");
     };
 });
 
@@ -127,7 +127,7 @@ $('#tumz-3 .cta').click(function() {
         $("#tumz-3 .p-tag-back").removeClass('visible'); //wanneer geklikt tekst veradert van more naar back
         $("#tumz-3 .p-tag-more").removeClass('hidden');
         $('.modalpop-up').remove();
-        $("#tumz-3 .replace").load("../mycontent3.html .tumz-wrapper");
+        $("#tumz-3 .replace").load("/mycontent3.html .tumz-wrapper");
 
     } else {
         $("#tumz-3").addClass('open');
